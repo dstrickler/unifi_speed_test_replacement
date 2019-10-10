@@ -1,4 +1,4 @@
-# unifi_speed_test_replacement
+# Unifi USG3 Speed Test Replacement
 Allows you to add your own speed test to be displayed in the Unifi Controller UI.
 Assuming your Unifi USG3 is at 10.0.1.1 and you've replaced your username in the top of the bash file, give it a run and see if you see the speed text numbers update on your mobile app. 
 
