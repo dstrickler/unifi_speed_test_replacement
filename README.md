@@ -4,7 +4,7 @@ Assuming your Unifi USG3 is at 10.0.1.1 and you've replaced your username in the
 
 All it's doing is running "speedtest" and outputting the resutls to JSON. Then it parseses those results and uploads, via "scp" to the Unifi USG3, replacing files that would normaly be replaced with the normally running speed test on the USG3.
 
-I run this from a RaspberryPi 4 with a 1GB ethernet port. It's run every 10 minutes to give me a good log of the max speeds my Fios line can run.
+I run this from a RaspberryPi 4 with a 1GB ethernet port. It's run every 10 minutes to give me a good log of the max speeds my Fios line can run. Remember if you run this via WiFi your results will show the speed of your WiFi. This is why it's best to run this off a ethernet cabled connection. Also note that older RaspberryPi boards only have a 100MB connection, which will limit this speed test.
 
 Note:
 1. You need to install "bc" and "speedtest-cli" commands if you are running Ubuntu (only tested with Ubuntu)
