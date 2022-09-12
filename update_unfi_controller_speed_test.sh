@@ -1,7 +1,8 @@
 #!/bin/bash
 #
 # Written by DStrickler on Thu, Oct 10, 2019
-# Warning: There is no error checking in here yet
+# Warning: There is no error checking in here yet.
+# Warning: May not be compatible with future versions of the Unifi UI.
 # Assumes exectable "bc" is installed by hand.
 #
 USERNAME="{your username to log into the Unifi router}"
